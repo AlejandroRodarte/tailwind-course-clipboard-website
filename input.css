@@ -6,6 +6,9 @@
   h3 {
     @apply mb-8 text-4xl font-bold text-dark-grayish-blue md:text-5xl;
   }
+  h5 {
+    @apply mb-2 text-2xl font-bold text-dark-grayish-blue;
+  }
 }
 
 @layer components {
@@ -13,7 +16,7 @@
     @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
   }
   .section-container {
-    @apply mx-auto max-w-6xl text-center;
+    @apply mx-auto max-w-6xl px-10 text-center;
   }
 }
 
