@@ -18,6 +18,9 @@
   .section-container {
     @apply mx-auto max-w-6xl px-10 text-center;
   }
+  .section-content {
+    @apply mx-auto max-w-3xl text-center text-xl leading-9 text-grayish-blue;
+  }
 }
 
 body {
