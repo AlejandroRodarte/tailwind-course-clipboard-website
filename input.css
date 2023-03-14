@@ -15,11 +15,15 @@
   .button-container {
     @apply flex w-full flex-col justify-center space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
   }
+  .ficon:hover {
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+      brightness(101%) contrast(94%);
+  }
   .section-container {
     @apply mx-auto max-w-6xl px-10 text-center;
   }
   .section-content {
-    @apply mx-auto max-w-3xl text-center text-xl leading-9 text-grayish-blue;
+    @apply mx-auto max-w-3xl text-center leading-9 text-grayish-blue;
   }
 }
 
@@ -33,9 +37,4 @@ body {
   body {
     background-image: url('../images/bg-header-mobile.png');
   }
-}
-
-.ficon:hover {
-  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
-    brightness(101%) contrast(94%);
 }
